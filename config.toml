@@ -1,8 +1,8 @@
-baseURL = "http://ycyopen.github.io"
-title = "starburst"
+baseURL = "https://ycyopen.github.io"
+title = "起司鮭魚的網站"
 theme = "hugo-coder"
-languageCode = "en"
-defaultContentLanguage = "en"
+languageCode = "zh-TW"
+defaultContentLanguage = "zh-TW"
 paginate = 20
 pygmentsStyle = "bw"
 pygmentsCodeFences = true
@@ -16,7 +16,7 @@ author = "ycyopen"
 description = "c8763"
 keywords = "blog,developer,personal"
 info = "c8763"
-avatarURL = "images/avatar.jpg"
+avatarURL = "images/kirito.jpg"
 #gravatar = "kirito@argus.com"
 footerContent = "8763"
 dateFormat = "January 2, 2006"
@@ -105,27 +105,12 @@ icon = "fa fa-github"
 weight = 1
 url = "https://github.com/ycyopen/"
 
-[languages.en]
-languageName = ":uk:"
-
-[[languages.en.menu.main]]
+[[menu.main]]
 name = "About"
-weight = 1
+weight = 2
 url = "about/"
 
-[[languages.en.menu.main]]
+[[menu.main]]
 name = "Blog"
-weight = 2
+weight = 1
 url = "posts/"
-
-[[languages.en.menu.main]]
-name = "Projects"
-weight = 3
-url = "projects/"
-
-[[languages.en.menu.main]]
-name = "Contact me"
-weight = 5
-url = "contact/"
-
-
