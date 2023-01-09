@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on starburst</title>
-    <link>http://ycyopen.github.io/series/</link>
-    <description>Recent content in Series on starburst</description>
+    <title>Series on 桐人的website</title>
+    <link>https://ycyopen.github.io/series/</link>
+    <description>Recent content in Series on 桐人的website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="http://ycyopen.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ycyopen.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
