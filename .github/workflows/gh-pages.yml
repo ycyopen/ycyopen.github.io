@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
@@ -20,13 +20,6 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-
-      - uses: actions/cache@v2
-        with:
-          path: /tmp/hugo_cache
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
 
       - name: Build
         run: hugo --minify
